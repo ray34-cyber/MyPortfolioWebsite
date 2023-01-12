@@ -16,7 +16,7 @@ const Home = () => {
                 Currently, i love to work on web application using technologies like <spa className="text-dark font-bold">React, Tailwind, Next JS</spa>
               </p>
 
-              <a href="CV.pdf" download={true} className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
+              <a href="Rancha_Adzany_compressed.pdf" download={true} className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
                 My resume
               </a>
             </div>
