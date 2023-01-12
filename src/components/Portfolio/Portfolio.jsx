@@ -36,7 +36,7 @@ const Portfolio = () => {
               <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus recusandae autem fugit.</p>
             </div>
             <div className="mb-12 p-4 md:w-1/2">
-              <a href="https://advice-project-phi.vercel.app">
+              <a href="https://my-portfolio-website-mu-three.vercel.app/">
                 <div className="rounded-md shadow-md overflow-hidden">
                   <img src={portfolio3} alt="My Portfolio" />
                 </div>
