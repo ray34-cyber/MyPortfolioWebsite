@@ -3,6 +3,7 @@ import portfolio1 from "./../../assets/portfolio1.png";
 import portfolio2 from "./../../assets/portfolio2.png";
 import portfolio3 from "./../../assets/portfolio3.png";
 import portfolio4 from "./../../assets/portfolio4.png";
+import portfolio5 from "./../../assets/portfolio5.png";
 
 const Portfolio = () => {
   return (
@@ -18,9 +19,18 @@ const Portfolio = () => {
           </div>
           <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
             <div className="mb-12 p-4 md:w-1/2">
+              <a href="https://blog-post-drab.vercel.app/" target="_blank" rel="noreferrer">
+                <div className="rounded-md shadow-md overflow-hidden">
+                  <img src={portfolio1} alt="BlogPost" />
+                </div>
+                <h3 className="font-semibold text-dark text-xl mt-5 mb-3 ">BlogPost</h3>
+              </a>
+              <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus recusandae autem fugit.</p>
+            </div>
+            <div className="mb-12 p-4 md:w-1/2">
               <a href="https://ray-movie.vercel.app" target="_blank" rel="noreferrer">
                 <div className="rounded-md shadow-md overflow-hidden">
-                  <img src={portfolio1} alt="Ray Movie" />
+                  <img src={portfolio2} alt="Ray Movie" />
                 </div>
                 <h3 className="font-semibold text-dark text-xl mt-5 mb-3 ">Ray Movie</h3>
               </a>
@@ -29,7 +39,7 @@ const Portfolio = () => {
             <div className="mb-12 p-4 md:w-1/2">
               <a href="https://todo-app-project-puce.vercel.app" target="_blank" rel="noreferrer">
                 <div className="rounded-md shadow-md overflow-hidden">
-                  <img src={portfolio2} alt="Todo App" />
+                  <img src={portfolio3} alt="Todo App" />
                 </div>
                 <h3 className="font-semibold text-dark text-xl mt-5 mb-3 ">Todo App</h3>
               </a>
@@ -38,7 +48,7 @@ const Portfolio = () => {
             <div className="mb-12 p-4 md:w-1/2">
               <a href="https://my-portfolio-website-mu-three.vercel.app/">
                 <div className="rounded-md shadow-md overflow-hidden">
-                  <img src={portfolio3} alt="My Portfolio" />
+                  <img src={portfolio4} alt="My Portfolio" />
                 </div>
                 <h3 className="font-semibold text-dark text-xl mt-5 mb-3 ">My Portfolio</h3>
               </a>
@@ -47,7 +57,7 @@ const Portfolio = () => {
             <div className="mb-12 p-4 md:w-1/2">
               <a href="https://advice-project-phi.vercel.app">
                 <div className="rounded-md shadow-md overflow-hidden">
-                  <img src={portfolio4} alt="Advice Project" />
+                  <img src={portfolio5} alt="Advice Project" />
                 </div>
                 <h3 className="font-semibold text-dark text-xl mt-5 mb-3 ">Advice Project</h3>
               </a>
